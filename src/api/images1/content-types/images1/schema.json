@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images2",
+  "info": {
+    "singularName": "images1",
+    "pluralName": "images2",
+    "displayName": "Images",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Doctor": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

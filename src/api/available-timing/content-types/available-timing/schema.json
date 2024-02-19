@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "available_timings",
+  "info": {
+    "singularName": "available-timing",
+    "pluralName": "available-timings",
+    "displayName": "available_timing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "disabled_slots": {
+      "type": "json"
+    },
+    "start_time": {
+      "type": "string"
+    },
+    "end_time": {
+      "type": "string"
+    }
+  }
+}
